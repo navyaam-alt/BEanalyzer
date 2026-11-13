@@ -7,9 +7,7 @@ Authors@R: c(
     email = "navyaamuniyappa@gmail.com", 
     role = c("aut", "cre"))
   )
-
 Description: Performs average bioequivalence (ABE) analysis for 2x2 and 3x3 crossover study designs. Automatically fits mixed-effects or linear ANOVA models, computes variance components, least-squares means (LSMeans), 90 percent confidence intervals, TOST, geometric means, descriptive statistics, and residual diagnostics, generating a publication-ready Phoenix WinNonlin style Word report.
-
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -22,3 +20,5 @@ Imports:
     lmerTest,
     officer
 RoxygenNote: 7.3.2
+URL: https://github.com/navyaam-alt/BEanalyzer
+BugReports: https://github.com/navyaam-alt/BEanalyzer/issues
