@@ -1,0 +1,8 @@
+usethis::use_mit_license("Navyaa M")
+usethis::use_package("lme4")
+usethis::use_package("lmerTest")
+usethis::use_package("emmeans")
+usethis::use_package("dplyr")
+usethis::use_package("flextable")
+usethis::use_package("officer")
+usethis::use_package("car")

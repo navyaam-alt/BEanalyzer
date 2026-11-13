@@ -1,0 +1,24 @@
+Package: BEanalyzer
+Type: Package
+Title: Average Bioequivalence Analysis and Regulatory Reporting for Crossover Studies
+Version: 0.1.0
+Authors@R: c(
+    person("Navyaa", "M", 
+    email = "navyaamuniyappa@gmail.com", 
+    role = c("aut", "cre"))
+  )
+
+Description: Performs average bioequivalence (ABE) analysis for 2x2 and 3x3 crossover study designs. Automatically fits mixed-effects or linear ANOVA models, computes variance components, least-squares means (LSMeans), 90 percent confidence intervals, TOST, geometric means, descriptive statistics, and residual diagnostics, generating a publication-ready Phoenix WinNonlin style Word report.
+
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    car,
+    dplyr,
+    emmeans,
+    flextable,
+    lme4,
+    lmerTest,
+    officer
+RoxygenNote: 7.3.2
